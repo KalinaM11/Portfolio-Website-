@@ -107,6 +107,22 @@ a:hover {
     padding-right: 1%;
     padding-top: 1%;
 }
+.middle-separator {
+    height: 30px;
+    background-color: #E5D9CC;
+}
+
+.project2 {
+    
+    background-color: rgb(215, 189, 203, 0.5);
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
 
 #p1 hover {
     transform:scale(1.2);
