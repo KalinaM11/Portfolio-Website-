@@ -87,8 +87,6 @@ a:hover {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-   
-    
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
@@ -96,33 +94,87 @@ a:hover {
     
 }
 
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .project1 {
-    
-    background-color: rgb(215, 189, 203, 0.5);
+    background-color: rgb(215, 189, 203, 0.0);
     height: 400px;
-    width: 600px;
+    max-width: 600px;
     text-align: center;
-    margin-left: 1%;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 1%;
+    overflow: auto;
 }
+
+.background1 {
+    background-color: #E5D9CC;
+    padding: 30px;
+    padding-left: 1%;
+}
+
 .middle-separator {
     height: 30px;
     background-color: #E5D9CC;
 }
 
-.project2 {
-    
+.title {
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(215, 189, 203, 0.0);
+    max-width: 600px;
+}
+
+.caption {
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(215, 189, 203, 0.0);
+    max-width: 600px;
+}
+
+.p2Container {
     background-color: rgb(215, 189, 203, 0.5);
-    height: 400px;
-    width: 600px;
+   max-width: 620px;
+}
+
+.background2 {
+    background-color: #E5D9CC;
+    padding: 30px;
+    padding-right: 1%;
+}
+
+.project2 {
+    background-color: rgb(215, 189, 203, 0.0);
+    max-height: 400px;
+    max-width: 600px;
     text-align: center;
     margin-left: 1%;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 1%;
+    overflow: auto;
+
 }
+
+.background3 {
+    background-color: #E5D9CC;
+    padding: 30px;
+    padding-left: 1%;
+}
+
+#p2-1 {
+    position: relative;
+    justify-self: center;
+
+}
+
+#p2-2 {
+    position: relative;
+}
+
 
 #p1 hover {
     transform:scale(1.2);
